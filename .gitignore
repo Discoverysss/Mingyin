@@ -1,0 +1,16 @@
+# Android 项目忽略规则
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+# Signing credentials and local secrets
+*.jks
+*.keystore
+keystore.properties
+.env
+.env.*
+# Local user recordings or exports
+*.wav
+*.pcm
